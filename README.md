@@ -64,7 +64,7 @@ Contrastings spending patterns and ranges:
 - 50k-75k income range is most common among customers.
 - The average frequency is ~4 visits in 15 days for all quantiles.
 - The Average Monetary Value increases with quantile (Top Spenders: $92 spent in 15 days).
-- The view rate is relatively consistent, but Response Rate rises with quantiles.
+- The view rate is relatively consistent, but response rate rises with quantiles.
 - The Engaged Members and Top Spenders increase spending from Days 16-30.
 
 These insights inform targeted marketing and loyalty efforts, boosting satisfaction and loyalty across spending levels.
