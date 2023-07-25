@@ -15,7 +15,7 @@ To construct the CLV dataset, the original data was divided into two equal 15-da
 Adding the "CLV_Quantile" column makes it possible to analyze customer attributes and behaviors within each quantile. Null numerical variables were imputed with 0. Null categorical variables were imputed under the label  “Unknown”, followed by one-hot encoding. Features engineered for the dataset include Recency, Frequency, Monetary, Average Order Value (AOV), Response Rate, View Rate, and Completed Offers by Channel, all specific to Days 1-15. Customer attributes like age, gender, household income, and membership year were also included. The target variable is defined as the sum of transactions for Days 16-30.
 
 
-<h3 align="center"> Actionable Insights </h3>
+<h3 align="center"> Insights </h3>
 
 Now let's explore some intriguing insights that this data can reveal about the rewards program and its customer base.
 
