@@ -30,7 +30,9 @@ Now let's explore some intriguing insights that this data can reveal about the r
 <p align="center">
 <img src="Images/Picture2.png" width=400>
 </p>
+
 <b>Response Rate shows a strong correlation with CLV, with a substantial 44% difference between the top 20% and bottom 20%.</b> As CLV increases, response rate rises, while view rate remains consistent across all quantiles. This emphasizes response rate as a key metric for measuring customer engagement.
+
 
 <p align="center">
 <img src="Images/Picture3.png" width=400>
