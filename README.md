@@ -21,17 +21,40 @@ Now let's explore some intriguing insights that this data can reveal about the r
 
 <b>The top 20% of the most valuable customers spend an average of $6 per day, equivalent to the cost of one specialty drink. </b>Marketers use RFM (Recency, Frequency, and Monetary) analysis to segment customers. Interestingly, there is little disparity in Recency or Frequency between the highest and lowest value segments, possibly due to the nature of the product being coffee, which is purchased regularly. However, a significant difference lies in the transaction amount. Notably, the top 80% of customers visit Starbucks four times within 15 days.
 
+<p align="center">
+<img src="Images/Picture1.png" width=400>
+</p>
+
 <b>The top 20% of customers spend approximately $22 per visit, while the bottom 20% spend $3.5 per visit on average, resulting in a significant difference of $18.50!</b> To put it into perspective, $3.5 is equivalent to the cost of one bakery item, whereas $22 covers three specialty items like a sandwich, protein box, and specialty drink. The difference in Average Order Value (AOV) is the key factor driving the difference in total spending between these customer segments.
 
+<p align="center">
+<img src="Images/Picture2.png" width=400>
+</p>
 <b>Response Rate shows a strong correlation with CLV, with a substantial 44% difference between the top 20% and bottom 20%.</b> As CLV increases, response rate rises, while view rate remains consistent across all quantiles. This emphasizes response rate as a key metric for measuring customer engagement.
+
+<p align="center">
+<img src="Images/Picture3.png" width=400>
+</p>
 
 <b>CLV is highly right-skewed, with some customers spending $1.2K-$1.3K in 15 days.</b> The max spender from day 1-15 spent ~$600 per visit in two visits, and max spender from day 16-30 spent ~$500-600 per visit in two visits, indicating potential corporate card usage for group orders.
 
+<p align="center">
+<img src="Images/Picture4.png" width=1000>
+</p>
+
 To address this skewness, applying Log Transformation to the Monetary Value feature and the Target Variable can potentially improve model fit and reduce prediction errors (measured by MAE) by reducing skewness and normalizing the distribution.
+
+<p align="center">
+<img src="Images/Picture5.png" width=1000>
+</p>
 
 <h3 align="center"> Customer Profiles </h3>
 
 Let's introduce customer profiles based on their spending quantiles: Occasional Buyers, Casual Shoppers, Regular Patrons, Engaged Members, and Top Spenders. Customer profiles provide detailed representations of customers' demographic information, purchasing behavior, interests, and preferences.
+
+<p align="center">
+<img src="Images/Picture6.png" width=1000>
+</p>
 
 Contrastings spending patterns and ranges:
 
@@ -45,6 +68,10 @@ Contrastings spending patterns and ranges:
 These insights inform targeted marketing and loyalty efforts, boosting satisfaction and loyalty across spending levels.
 
 Now let’s compare the Top 10% vs the Rest of the Population and what are the most striking differences between them.
+
+<p align="center">
+<img src="Images/Picture7.png" width=1000>
+</p>
 
 - Spending Amount: Super Spenders consistently spend significantly more than the Rest of the Population throughout the month. Their average sum of transactions in the second half is $252, compared to $50 for the Rest of the Population.
 - Response Rate: Super Spenders have a higher response rate (54%) compared to the Rest of the Population (36%), indicating potentially higher engagement or satisfaction.
@@ -63,9 +90,21 @@ After comparing different models with various feature sets determined by feature
 
 During model comparisons, after performing a 70/30 train-test split, a KFold cross-validation strategy with 5 folds was implemented, randomly shuffling the records. Then MAE values were analyzed using boxplots for both the training and test data. LGBM proved its strength by minimizing Test MAE and maintaining a consistently lower and narrower MAE range in K-fold cross-validation, demonstrating model stability. The winning model then underwent hyperparameter tuning with RandomSearchCV.
 
+<p align="center">
+<img src="Images/Picture8.png" width=1000>
+</p>
+
 LGBM Feature Importance highlights Monetary Value and Frequency as the most important features. Monetary Value / Frequency also equals Average Order Value (AOV).
 
+<p align="center">
+<img src="Images/Picture9.png" width=1000>
+</p>
+
 An example of one LGBM Tree Split analyzes Spending, HH Income, Frequency in its initial branches, identifying influential predictors. This is consistent with feature importance Initial splits capture important predictors. By considering these key features early on, the algorithm can identify the most relevant variables and create a strong foundation for subsequent splits. This approach allows for more efficient decision-making, potentially leading to improved predictions and model performance.
+
+<p align="center">
+<img src="Images/Picture10.png" width=1000>
+</p>
 
 The winning model, LightGBM without log transformation, delivers the best predictions for Regular Patrons (60-80% Quantile) but faces challenges due to skewness. It tends to overestimate CLV for the bottom 80% and underestimate for the top 20%. This skew is a result of the uneven distribution of customers, with a higher concentration of lower-spending customers and relatively fewer high-spending customers. Consequently, the tree model struggles to identify meaningful patterns or splits specific to the relatively fewer high-value customers, impacting its ability to accurately capture their behaviors. As a result, the model has difficulty predicting the lowest or highest value customers.
 
