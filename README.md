@@ -98,7 +98,8 @@ During model comparisons, after performing a 70/30 train-test split, a KFold cro
 </p>
 
 LGBM Feature Importance highlights Monetary Value and Frequency as the most important features. 
-(Note: Monetary Value / Frequency also equals Average Order Value (AOV)!)
+
+Note: Monetary Value / Frequency also equals Average Order Value (AOV)!
 
 <p align="center">
 <img src="Images/Picture9.png" width=1000>
