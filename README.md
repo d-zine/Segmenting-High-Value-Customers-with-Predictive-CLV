@@ -60,7 +60,7 @@ Let's introduce customer profiles based on their spending quantiles: Occasional 
 
 Contrastings spending patterns and ranges:
 
-- There is significant spending variation between Top Spenders ($107.86-$1,287.25) vs. Occasional Buyers ($0-$14.65).
+- There is significant spending variation between Top Spenders ($108-$1,287) vs. Occasional Buyers ($0-$15).
 - $50k-75k is the most common income range among all customers.
 - The average frequency is ~4 visits in 15 days for all quantiles.
 - The Average Monetary Value increases with quantile (Top Spenders: $92 spent in 15 days).
