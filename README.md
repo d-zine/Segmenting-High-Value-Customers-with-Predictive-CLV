@@ -58,7 +58,7 @@ Let's introduce customer profiles based on their spending quantiles: Occasional 
 <img src="Images/Picture6.png" width=1000>
 </p>
 
-Contrastings spending patterns and ranges:
+Contrasting spending patterns and ranges:
 
 - There is significant spending variation between Top Spenders ($108-$1,287) vs. Occasional Buyers ($0-$15).
 - $50k-75k is the most common income range among all customers.
