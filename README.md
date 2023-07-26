@@ -79,7 +79,7 @@ Now let’s compare the Top 10% vs the Rest of the Population and what are the m
 - Response Rate: Super Spenders have a higher response rate (54%) compared to the Rest of the Population (36%), indicating potentially higher engagement or satisfaction.
 - Gender Distribution: Super Spenders have a higher proportion of females (56%) compared to the Rest of the Population (40%), suggesting possible gender-based spending patterns.
 - Income Distribution: Super Spenders have more individuals with higher incomes ($75k and above), suggesting that disposable income influences spending patterns.
-- Frequency of Transactions: Both groups have the same average transaction frequency, highlighting the importance of increasing the average order value (AOV).
+- Frequency of Transactions: Both groups have the same average transaction frequency, highlighting the importance of increasing AOV.
  
 To leverage these insights effectively, one recommendation is to incorporate gender-based marketing approaches. Another recommendation is to focus on increasing AOV rather than increasing transaction frequency.
 
