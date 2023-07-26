@@ -25,7 +25,7 @@ Let's explore some intriguing insights that this data can reveal about the rewar
 <img src="Images/Picture1.png" width=400>
 </p>
 
-However, a significant difference was observed in the transaction amount. <b>The top 20% of customers spend approximately $22 per visit, while the bottom 20% spend $3.5 per visit on average, resulting in a significant difference of $18.50!</b> To put this into perspective, $3.50 is equivalent to the cost of one bakery item, whereas $22 covers three specialty items like a sandwich, protein box, and specialty drink. The difference in Average Order Value (AOV) is the key factor driving the difference in total spending between these customer segments.
+However, a significant difference was observed in the transaction amount. <b>The top 20% of customers spend approximately $22 per visit, while the bottom 20% spend only $3.50 per visit on average!</b> To put this into perspective, $3.50 is equivalent to the cost of one bakery item, whereas $22 covers three specialty items like a sandwich, protein box, and specialty drink. The difference in Average Order Value (AOV) is the key factor driving the difference in total spending between these customer segments.
 
 <p align="center">
 <img src="Images/Picture2.png" width=400>
