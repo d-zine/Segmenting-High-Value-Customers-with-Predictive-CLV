@@ -13,7 +13,7 @@ The Starbucks reward offers dataset from Kaggle simulates the Starbucks Reward P
 
 To construct the CLV dataset, the original data was divided into two equal 15-day periods. The first period's demographic, behaviors, and spending data were used to predict spending in the latter period. CLV is calculated as the sum of transactions during the latter period and segmented into five quantiles. Quantiles are statistical measures that divide a dataset into 5 equal segments, representing different customer groups based on value.
 
-Assigning each customer to a CLV quantile makes it possible to analyze customer attributes and behaviors by quantile and to compare the typical customer profile across quantiles. Factors evaluated when predicting future customer value included included activity measures such as Recency, Frequency, Monetary, Average Order Value (AOV), Response Rate, View Rate, and Completed Offers by Channel, along with customer attributes like age, gender, household income, and membership year. 
+Assigning each customer to a CLV quantile makes it possible to analyze customer attributes and behaviors by quantile and to compare the typical customer profile across quantiles. Factors evaluated when predicting future customer value included activity measures such as Recency, Frequency, Monetary, Average Order Value (AOV), Response Rate, View Rate, and Completed Offers by Channel, along with customer attributes like age, gender, household income, and membership year. 
 
 <h3 align="center"> Insights </h3>
 
