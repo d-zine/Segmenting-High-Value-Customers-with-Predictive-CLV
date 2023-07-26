@@ -77,7 +77,7 @@ Now let’s compare the Top 10% vs the Rest of the Population and what are the m
 
 - Spending Amount: Super Spenders consistently spend significantly more than the Rest of the Population throughout the month. Their average sum of transactions in the second half is $252, compared to $50 for the Rest of the Population.
 - Response Rate: Super Spenders have a higher response rate (54%) compared to the Rest of the Population (36%), indicating potentially higher engagement or satisfaction.
-- Gender Distribution: Super Spenders have a higher proportion of females (56%) compared to the Rest of the Population (40%), suggesting possible gender-based spending patterns.
+- Gender Distribution: Super Spenders have a higher proportion of females (56%) than males compared to the Rest of the Population (40%), suggesting possible gender-based spending patterns.
 - Income Distribution: Super Spenders have more individuals with higher incomes ($75k and above), suggesting that disposable income influences spending patterns.
 - Frequency of Transactions: Both groups have the same average transaction frequency, highlighting the importance of increasing AOV.
  
