@@ -7,7 +7,7 @@ Imagine having the ability to precisely quantify the value of different customer
 In this capstone project, Customer Lifetime Value (CLV) is predicted on an individual (customer-by-customer) basis to identify valuable customers for retention and upselling. This analysis will also dive into notable trends of the behaviors and demographics of the top 10% of customers. The goal is to optimize marketing strategies and maximize profitability using predictive CLV.
 
 
-<h3 align="center"> Data Overview, Imputation, and Transformation </h3>
+<h3 align="center"> Data Overview and Transformation </h3>
 
 The Starbucks reward offers dataset from Kaggle simulates the Starbucks Reward Program, consisting of 76,277 marketing offers sent to 17,000 users over 30 days. The dataset includes three tables: an event log tracking user actions, customer profiles with demographic information, and marketing offers sent through various channels.
 
