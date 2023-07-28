@@ -127,7 +127,7 @@ After experimenting with various preprocessing steps using an LGBM model to impr
 
 <h3 align="center">Insights and Actionable Recommendation</h3>
 
-The analysis and model predictions indicates four key recommendations:
+The analysis and model predictions indicates four key insights and recommendations:
 
 1. The best method to improve predictions was using a hyper-parameter tuned LGBM model without log transformation.
 
