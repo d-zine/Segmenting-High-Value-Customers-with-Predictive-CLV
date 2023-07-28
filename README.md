@@ -63,7 +63,7 @@ Contrasting spending patterns and ranges:
 - There is significant spending variation between Top Spenders ($108-$1,287) vs. Occasional Buyers ($0-$15).
 - $50k-75k is the most common income range among all customers.
 - The average frequency is ~4 visits in 15 days for most quantiles.
-- The Average Monetary Value increases with quantile (Top Spenders spent $92 in 15 days).
+- The Average Monetary Value increases with quantile (Top Spenders spent on average $92 in 15 days).
 - The marketing offer view rate is relatively consistent, but response rate increases as customer value increases.
 - The Engaged Members and Top Spenders increased average spending from Days 16-30.
 
